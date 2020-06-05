@@ -1,0 +1,7 @@
+** Test case c0.txt: get_value/print test**
+start
+	declare x:integer;
+	get_value(x);
+	print(x);					    
+end
+$

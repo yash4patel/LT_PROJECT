@@ -1,0 +1,31 @@
+** Test case c1.txt: Handles simple expressions**
+start
+declare x,y:integer;
+
+
+y:=4*3;
+print(y);
+
+x:=y+3;
+print(x);
+
+declare m,n:real;
+m:=12.0/6.0+23.1;
+print(m); 
+
+n:=123.2e6;
+print(n);
+
+n:=123.2E-1;
+print(n);
+
+n:=123.2E+2;
+print(n);
+
+declare a,b:boolean;
+a:=((x>y)AND(x<y));
+b:=((1==2)OR(2==3));
+
+
+end
+$
